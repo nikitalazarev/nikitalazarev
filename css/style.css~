@@ -32,7 +32,7 @@ body {
 		position: absolute;
 		margin-top: 170px;
 		margin-left:80%;
-		filter: invert(1);
+		
 	
 		
 	}
