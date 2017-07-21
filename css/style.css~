@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0 ;
-   background-image:url("nikitalazarev.github.io/pics/background.jpg")
+   background-image:url("https://nikitalazarev.github.io/pics/background.jpg")
 	}
 .header {
 		margin: 0 auto;
