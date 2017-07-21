@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0 ;
-   background: url(https://nikitalazarev.github.io/pics/background.jpg)
+   background-image:url("nikitalazarev.github.io/pics/background.jpg")
 	}
 .header {
 		margin: 0 auto;
@@ -21,17 +21,23 @@ body {
 	}
 .headfont {
 		position: absolute;
-		margin-top: 10%;
-		margin-left: 50%;
-		color: white;
+		top: 150px;
+		right: 30%;
+
+		color: #8a5858;
 		font-size:150%;
 		font-family: 'Ubuntu Condensed', sans-serif;
-	}
+		/*! text-shadow: 
+		-0 -1px 0 #D6D6D6, 0 -1px 0 #D6D6D6, -0 1px 0 #D6D6D6, 0 1px 0 #D6D6D6, -1px -0 0 #D6D6D6, 1px -0 0 #D6D6D6, -1px 0 0 #D6D6D6, 1px 0 0 #D6D6D6, -1px -1px 0 #D6D6D6, 1px -1px 0 #D6D6D6, -1px 1px 0 #D6D6D6, 1px 1px 0 #D6D6D6, -1px -1px 0 #D6D6D6, 1px -1px 0 #D6D6D6, -1px 1px 0 #D6D6D6, 1px 1px 0 #D6D6D6; */
+}
+.headfont h1{font-weight: lighter;}
+.headfont h2{font-weight: lighter;}
 
 .header_icons {
 		position: absolute;
-		margin-top: 170px;
-		margin-left:80%;
+		top: 200px;
+		right: 10%;
+
 		
 	
 		
@@ -43,11 +49,12 @@ body {
 	}
 .phone {
 		position: absolute;
-		margin-top: 20%;
-		margin-left:80%;
-		color: white;
+		top: 280px;
+		right: 10%;
+		/*! color: white; */
 		font-size:150%;
 		font-family: 'Ubuntu Condensed', sans-serif;
+		color: #8a5858;
 	}
 
 
@@ -140,10 +147,11 @@ margin-left: 20px;
 margin-right: 20px;
 font-family:'Roboto', sans-serif;
 
+
 } 
 .content a{display:block;margin-top:-69px;padding-top:69px;}
-.content h1{font-family: 'Open Sans', sans-serif;}
-.content h2{font-family: 'Open Sans', sans-serif;}
+.content h1{font-family: 'Open Sans', sans-serif; }
+.content h2{font-family: 'Open Sans', sans-serif; }
 #lips {
 		text-align: center;
 
@@ -161,6 +169,7 @@ font-family:'Roboto', sans-serif;
 	}	
 .footer {
 		margin-top: 200px;
+		font-family: 'Open Sans', sans-serif;
 	}
 .footerimg{
 		float: right;
@@ -171,17 +180,21 @@ font-family:'Roboto', sans-serif;
 .footerfont {
 		padding-left: 20px;
 		font-size:150%;
-		font-family: 'Open Sans', sans-serif;
-		width: 50%;
+		,font-family: 'Open Sans', sans-serif;
 		float: left;
+		width: 50%;
+		
 	}
+.footerfont h1{font-weight: lighter;}
+.footerfont h2{font-weight: lighter;}
 #footerphone{
 		
-		padding-left: 77%;
+		padding-left: 75%;
 		padding-top: 11%;
 
-		width: 200px; 
+		width: 220px; 
 		font-size:150%;
-		font-family: 'Open Sans', sans-serif;		
+			
 		
 }
+#footerphone h4{font-weight: lighter;}
