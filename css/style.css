@@ -87,7 +87,7 @@ body {
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
-  margin: 0 34px 0 30px;
+  margin: 0 5px 0 1px;
   font-size: 17px;
   text-transform: uppercase;
   display: inline-block;
@@ -136,7 +136,7 @@ overflow:hidden;
   -moz-opacity:0.5;
 background-color:#FFFFFF;
 width:1000px;
-height:4500px;
+height:5500px;
 position:absolute;
 z-index:-1;
 } 
@@ -152,6 +152,11 @@ font-family:'Roboto', sans-serif;
 .content a{display:block;margin-top:-69px;padding-top:69px;}
 .content h1{font-family: 'Open Sans', sans-serif; }
 .content h2{font-family: 'Open Sans', sans-serif; }
+
+.gallery {
+		text-align: center;
+	}
+	
 #lips {
 		text-align: center;
 
@@ -163,12 +168,20 @@ font-family:'Roboto', sans-serif;
 		height: auto;	
 	}
 #eyelid {
-		float: left;
-		margin-right: 20px;
+		float: right;
+		margin-left: 20px;
 		
-	}	
+	}
+#eyelid1	{
+		float: left;
+		padding:1%;
+	}
+#eyebrow {
+		float: right;
+		margin-left: 20px;		
+	}
 .footer {
-		margin-top: 200px;
+		margin-top: 500px;
 		font-family: 'Open Sans', sans-serif;
 	}
 .footerimg{
@@ -180,13 +193,19 @@ font-family:'Roboto', sans-serif;
 .footerfont {
 		padding-left: 20px;
 		font-size:150%;
-		,font-family: 'Open Sans', sans-serif;
 		float: left;
-		width: 50%;
+		width: 60%;
 		
 	}
-.footerfont h1{font-weight: lighter;}
-.footerfont h2{font-weight: lighter;}
+.footerfont1 {
+		padding-left: 20px;
+		font-size:150%;
+		float: left;
+		
+	}
+	
+.footer h1{font-weight: lighter;}
+.footer h2{font-weight: lighter;}
 #footerphone{
 		
 		padding-left: 75%;
@@ -198,3 +217,4 @@ font-family:'Roboto', sans-serif;
 		
 }
 #footerphone h4{font-weight: lighter;}
+
