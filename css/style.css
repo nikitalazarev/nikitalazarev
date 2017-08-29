@@ -134,7 +134,7 @@ overflow:hidden;
   -moz-opacity:0.5;
 background-color:#FFFFFF;
 width:1000px;
-height:4500px;
+height:3810px;
 position:absolute;
 z-index:-1;
 } 
@@ -176,9 +176,12 @@ font-family:'Roboto', sans-serif;
 	}
 .footer {
 		font-family: 'Open Sans', sans-serif;
+		height: 230px;
+		background-color: white;
 	}
 .footerimg{
 		float: right;
+		margin-top: -30px;
 	}
 .footerimg img {
 		padding-right: 30px;
@@ -198,12 +201,12 @@ font-family:'Roboto', sans-serif;
 		
 	}
 	
-.footer h1{font-weight: lighter;}
+.footer h1{font-weight: lighter;margin-top: 0;}
 .footer h2{font-weight: lighter;}
 #footerphone{
 		
 		padding-left: 75%;
-		padding-top: 11%;
+		padding-top: 140px;
 
 		width: 220px; 
 		font-size:150%;
