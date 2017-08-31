@@ -135,23 +135,14 @@ font-family:'Roboto', sans-serif;
 .content h2{font-family: 'Open Sans', sans-serif; }
 	
 #lips {
-		text-align: center;
-
-		margin-left: 20px;
-		
+		margin-left: 20px;		
 		float: right;
 	}
-	#lips img{
-		height: auto;	
-	}
+
 #eyelid {
 		float: right;
 		margin-left: 20px;
 		
-	}
-#eyelid1	{
-		float: left;
-		padding:1%;
 	}
 #eyebrow {
 		float: right;
