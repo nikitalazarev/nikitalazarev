@@ -1,58 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto');
-#aheader {
-	display:block;margin-top:-80px;padding-top:80px;
-}
+
 body {
 	margin: 0 ;
    background-image:url("https://nikitalazarev.github.io/pics/background.jpg")
 	}
 .header {
 		margin: 0 auto;
-		
-		
-	}
-.header #background{
-		margin-top: 109px;
-		max-width: 100%;
-		height: auto;
-		
-		
-	}
+		}
+
 .headfont {
 		position: absolute;
 		top: 150px;
-		right: 30%;
-
-		color: #8a5858;
-		font-size:150%;
+    left: 150px;
+		color: #B0C4DE; 
+		font-size:250%;
 		font-family: 'Ubuntu Condensed', sans-serif;
-		
+	  white-space: nowrap;
 }
 .headfont h1{font-weight: lighter;}
 .headfont h2{font-weight: lighter;}
 
 .header_icons {
 		position: absolute;
-		top: 200px;
-		right: 10%;
-
-		
-	
-		
+		top: 600px;
+		left: 150px;
 	}
 .header_icons img {
-		width: 44px;
-		
-		
-	}
+		padding-right: 50px ;
+		}
 .phone {
 		position: absolute;
-		top: 280px;
-		right: 10%;
-		font-size:150%;
+		top: 500px;
+		left: 150px;
+		font-size:250%;
 		font-family: 'Ubuntu Condensed', sans-serif;
-		color: #8a5858;
+		color: #B0C4DE;
+    letter-spacing: 8px;
 	}
 
 
@@ -60,7 +44,6 @@ body {
 	 	width: 100%;
 		position: fixed;
 		list-style: none;
-		top:40px;
 		z-index: 1;
 		padding: 25px 0 5px;
 		text-align: center;
@@ -85,7 +68,7 @@ body {
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
-  margin: 0 5px 0 1px;
+  margin: 0 10px 0 1px;
   font-size: 17px;
   text-transform: uppercase;
   display: inline-block;
@@ -93,7 +76,7 @@ body {
 }
 
 .menu a, .menu a:visited {color: #9d999d;}
-.menu a.current, .menu a:hover{color: #feb386;}
+.menu a.current, .menu a:hover{color: #B0C4DE;}
 .menu a:before,
 
 .menu a:after {
@@ -104,7 +87,7 @@ body {
   right: 50%;
   bottom: -5px;
   left: 50%;
-  background: #feb386;
+  background: #B0C4DE;
   transition: .8s;
 }
 .menu a:hover:before, .menu .current:before {left: 0;}
