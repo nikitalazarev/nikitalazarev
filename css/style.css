@@ -104,22 +104,22 @@ body {
 }
 
 #container {
-
-width:1000px;
-color:#606060;
-margin: auto;
-overflow:hidden;
+	position:relative;
+	width:1000px;
+	color:#606060;
+	margin: auto;
+	overflow:hidden;
 }
 
 #container .transparency {
   opacity:0.5;
   filter:alpha(opacity=50);
   -moz-opacity:0.5;
-background-color:#FFFFFF;
-width:1000px;
-height:3810px;
-position:absolute;
-z-index:-1;
+	background-color:#FFFFFF;
+	width:1000px;
+	height:100%;
+	position:absolute;
+	z-index:-1;
 } 
 
 .content {
