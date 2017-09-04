@@ -3,7 +3,8 @@
 
 body {
 	margin: 0 ;
-   background-image:url("https://nikitalazarev.github.io/pics/background.jpg")
+	background:url("https://nikitalazarev.github.io/pics/background_2.jpg") center top fixed no-repeat;
+ 
 	}
 .header {
 		margin: 0 auto;
