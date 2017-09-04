@@ -4,8 +4,12 @@
 body {
 	margin: 0 ;
 	background:url("https://nikitalazarev.github.io/pics/background_2.jpg")  ;
- 
-	}
+}
+.background{
+	position: fixed;
+	z-index: -1;
+	height: 100%;
+}
 .header {
 		margin: 0 auto;
 		}
