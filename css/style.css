@@ -10,7 +10,7 @@ body {
 	z-index: -2;
 	position: absolute;
 	height: 100%;
-	width: 100%;
+	width: 1280px;
 }
 .header {
 	margin: 0 auto;
