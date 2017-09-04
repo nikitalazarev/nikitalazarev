@@ -10,7 +10,7 @@ body {
 	z-index: -2;
 	position: absolute;
 	height: 100%;
-	width: 100wh;
+	width: 100%;
 }
 .header {
 	margin: 0 auto;
@@ -112,7 +112,7 @@ body {
 
 #container {
 	position:relative;
-	width:1000px;
+	width:100%;
 	color:#606060;
 	margin: auto;
 	overflow:hidden;
@@ -127,15 +127,17 @@ body {
 	height:100%;
 	position:absolute;
 	z-index:-1;
+  margin-left: 140px;
 } 
 
 .content {
 position:relative;
-margin-left: 20px;
-margin-right: 20px;
+padding-left: 20px;
+
 font-family:'Roboto', sans-serif;
+margin-left: 140px;
 
-
+width: 960px;
 } 
 .content a{display:block;margin-top:-69px;padding-top:69px;}
 .content h1{font-family: 'Open Sans', sans-serif; }
