@@ -3,13 +3,13 @@
 
 body {
 	margin:0 ;
-	
+	position: relative;
 }
 .background{
-	position: fixed;
+	position: absolute;
 	z-index: -2;
-	height: 100hv;
-	width: 100wv;
+	height: 100%;
+	width: 100%;
 }
 .background img{
 	width: ;
