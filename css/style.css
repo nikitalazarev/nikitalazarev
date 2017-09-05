@@ -160,7 +160,7 @@ width: 960px;
 	}
 .footer {
 		font-family: 'Open Sans', sans-serif;
-		height: 230px;
+		height: 240px;
 		width:1000px;
 		background-color: white;
 		margin-left: 140px;
@@ -176,7 +176,6 @@ width: 960px;
 	}
 .footerfont {
 		padding-left: 20px;
-		margin-left: 140px;
 		font-size:150%;
 		float: left;
 		width: 60%;
