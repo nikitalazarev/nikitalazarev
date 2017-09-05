@@ -119,7 +119,7 @@ body {
 }
 
 #container .transparency {
-  opacity:0.5;
+  opacity:0.8;
   filter:alpha(opacity=50);
   -moz-opacity:0.5;
 	background-color:#FFFFFF;
@@ -142,6 +142,7 @@ width: 960px;
 .content a{display:block;margin-top:-69px;padding-top:69px;}
 .content h1{font-family: 'Open Sans', sans-serif; }
 .content h2{font-family: 'Open Sans', sans-serif; }
+.content img {border: 3px solid;border-color: #ffffff;}
 	
 #lips {
 		margin-left: 20px;		
