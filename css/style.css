@@ -30,11 +30,11 @@ body {
 
 .header_icons {
 		position: absolute;
-		top: 600px;
-		left: 150px;
+		top: 625px;
+		left: 100px;
 	}
 .header_icons img {
-		padding-right: 50px ;
+		padding-right: 100px ;
 		}
 .phone {
 		position: absolute;
