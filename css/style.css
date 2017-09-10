@@ -78,7 +78,7 @@ body {
 .menu a {
   text-decoration: none;
   font-family: 'Ubuntu Condensed', sans-serif;
-  letter-spacing: 8px;
+  letter-spacing:6px;
   position: relative;
   padding-bottom: 20px;
   margin: 0 10px 0 10px;
