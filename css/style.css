@@ -105,15 +105,7 @@ body {
 .menu a:hover:before, .menu .current:before {left: 0;}
 .menu a:hover:after, .menu .current:after {right: 0;}   
 
-@media (max-width: 550px) {
-	.menu {padding-top: 0;}
-	.menu li {display: block;}
-	.menu li:after {content: none;}
-	.menu a {
- 			padding: 25px 0 20px; 
-  			margin: 0 30px;
-		}
-}
+
 
 #container {
 	position:relative;
