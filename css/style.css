@@ -15,6 +15,9 @@ body {
 .header {
 	margin: 0 auto;
 }
+.header .header_background{
+		padding-top: 110px;	
+	}
 
 .headfont {
 		position: absolute;
@@ -30,7 +33,7 @@ body {
 
 .header_icons {
 		position: absolute;
-		top: 625px;
+		top: 750px;
 		left: 100px;
 	}
 .header_icons img {
@@ -65,14 +68,16 @@ body {
   color: #606060;
   display: inline-block;
   vertical-align:top;
+  font-size: 24px;
 }
 
 .menu li:last-child:after {content: none;}
+.menu li:nth-child(4):after {content: none;}
 
 .menu a {
   text-decoration: none;
   font-family: 'Ubuntu Condensed', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 8px;
   position: relative;
   padding-bottom: 20px;
   margin: 0 10px 0 1px;
@@ -82,7 +87,7 @@ body {
   transition: color .2s;
 }
 
-.menu a, .menu a:visited {color: #9d999d;}
+.menu a, .menu a:visited {color: #233972;}
 .menu a.current, .menu a:hover{color: #B0C4DE;}
 .menu a:before,
 
