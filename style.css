@@ -12,7 +12,6 @@ body{
   display: inline;
 }
 .sprite{
-  /*! text-align: center; */
   margin-top: 200px;
   position: relative;
 }
@@ -30,12 +29,11 @@ canvas{
 #a_input{
   position: absolute;
   bottom: 170px;
-  left: 360px;  
+
 }
 #b_input{
   position: absolute;
-  bottom: 130px;
-  left: 575px;  
+  bottom: 130px;  
   display: none;
 }
 #c_input{
