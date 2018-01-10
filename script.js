@@ -1,13 +1,17 @@
+	 var a = Number(document.getElementById('a').textContent);
+ 	 var b = Number(document.getElementById('b').textContent);
+ 	 var step = 39;
+
 	  var canvas = document.getElementById('canvas');
       var context = canvas.getContext('2d');
 
       context.beginPath();
       context.moveTo(0, 100);
-      context.quadraticCurveTo(138, -98, 273, 100);
-      context.moveTo(273, 100);
-      context.lineTo(273, 90);
-      context.moveTo(275, 100);
-      context.lineTo(265, 97);
+      context.quadraticCurveTo((step * a)/2, -98, step * a, 100);
+      context.moveTo(step * a, 100);
+      context.lineTo(step * a, 90);
+      context.moveTo(step * a, 100);
+      context.lineTo(step * a - 10, 97);
       context.lineWidth = 2;
 
       // line color
@@ -29,12 +33,12 @@
     		b_input.style.display = 'block';
 
     		  context.beginPath();
-		      context.moveTo(273, 100);
-		      context.quadraticCurveTo(353, 0, 430, 100);
-		      context.moveTo(430, 100);
-		      context.lineTo(427, 90);
-		      context.moveTo(430, 100);
-		      context.lineTo(420, 97);
+		      context.moveTo(step * a, 100);
+		      context.quadraticCurveTo(step * a + b*step/2, 0, step * (a + b), 100);
+		      context.moveTo(step * (a + b), 100);
+		      context.lineTo(step * (a + b), 90);
+		      context.moveTo(step * (a + b), 100);
+		      context.lineTo(step * (a + b) - 10, 97);
 		      context.lineWidth = 2;
 
 		      // line color
@@ -61,8 +65,7 @@
  	 };
 
 
- 	 var a = Number(document.getElementById('a').textContent);
- 	 var b = Number(document.getElementById('b').textContent);
+
 
  	 c_input.oninput = function() {
     	if(c_input.value != a + b){
@@ -70,5 +73,6 @@
     	}else{
     		c_input.style.display = 'none';
     		document.getElementById('c_fin').style.display = 'inline';
+    		document.getElementById('c_fin').innerHTML = a + b;
     	}
  	 };
