@@ -21,7 +21,7 @@ body{
 }
 canvas{
   position: absolute;
-  width: 430px;
+  width: 800px;
   height: 100px;
   left: 237px;
   bottom:67px;
