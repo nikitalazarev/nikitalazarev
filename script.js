@@ -2,6 +2,9 @@
  	 var b = Number(document.getElementById('b').textContent);
  	 var step = 39;
 
+ 	 document.getElementById('a_input').style.left = 220 + (step * a)/2 + 'px';
+ 	 document.getElementById('b_input').style.left = 220 + (step * a + b*step/2) + 'px' ;
+
 	  var canvas = document.getElementById('canvas');
       var context = canvas.getContext('2d');
 
