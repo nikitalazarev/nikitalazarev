@@ -2,9 +2,14 @@ body{
   margin:0;
   padding:0;
 }
+.set_a_b{
+    text-align: center;
+    margin-top: 200px;
+}
+
 .expression{
   text-align: center;
-  margin-top: 200px;  
+  margin-top: 50px;  
   font-size: 30px; 
   position: relative;
 }
@@ -29,7 +34,7 @@ canvas{
 #a_input{
   position: absolute;
   bottom: 170px;
-
+  display: none;
 }
 #b_input{
   position: absolute;
