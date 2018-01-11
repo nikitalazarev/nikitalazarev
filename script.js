@@ -1,38 +1,5 @@
-
-
- 	 var set_a = document.getElementById('set_a');
- 	 var set_b = document.getElementById('set_b');
-
- 	 set_a.oninput = function() {
- 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
- 	 		set_a.style.color = 'red';
- 	 	}else{
- 	 		set_a.style.color = 'black';
-
- 	 	}
- 	 }
-
- 	 set_a.onchange = function(){
- 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
- 	 	}else{
- 	 		document.getElementById('a').innerHTML = set_a.value;
- 	 	}
- 	 }
-
- 	 set_b.oninput = function() {
- 	 	if(set_b.value < 0 || Number(set_b.value) + Number(set_a.value)  > 20 || isNaN(set_b.value) == true ){
- 	 		set_b.style.color = 'red';
- 	 	}else{
- 	 		set_b.style.color = 'black';
-
- 	 	}
- 	 }
-
- 	 set_b.onchange = function(){
- 	 	if(set_b.value < 0 || Number(set_b.value) + Number(set_a.value) > 20 || isNaN(set_b.value) == true ){
- 	 	}else{
- 	 		document.getElementById('b').innerHTML = set_b.value;
- 	 		document.getElementById('c_fin').style.display = 'none';
+	function Chart(){
+			document.getElementById('c_fin').style.display = 'none';
  	 		document.getElementById('c').style.display = 'inline';
  	 		document.getElementById('b_input').style.display = 'none';
  	 		document.getElementById('a_input').style.display = 'block';
@@ -120,10 +87,45 @@
 		    		document.getElementById('c_fin').style.display = 'inline';
 		    		document.getElementById('c_fin').innerHTML = a + b;
 		    	}
-		 	 };
-			
+		 	 };	
+	}
+	
 
-		 }
+ 	 var set_a = document.getElementById('set_a');
+ 	 var set_b = document.getElementById('set_b');
+
+ 	 set_a.oninput = function() {
+ 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
+ 	 		set_a.style.color = 'red';
+ 	 	}else{
+ 	 		set_a.style.color = 'black';
+
+ 	 	}
  	 }
 
- 	 
+ 	 set_a.onchange = function(){
+ 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
+ 	 	}else{
+ 	 		document.getElementById('a').innerHTML = set_a.value;
+ 	 		Chart();
+ 	 	}
+ 	 }
+
+ 	 set_b.oninput = function() {
+ 	 	if(set_b.value < 0 || Number(set_b.value) + Number(set_a.value)  > 20 || isNaN(set_b.value) == true ){
+ 	 		set_b.style.color = 'red';
+ 	 	}else{
+ 	 		set_b.style.color = 'black';
+
+ 	 	}
+ 	 }
+
+ 	 set_b.onchange = function(){
+ 	 	if(set_b.value < 0 || Number(set_b.value) + Number(set_a.value) > 20 || isNaN(set_b.value) == true ){
+ 	 	}else{
+ 	 		document.getElementById('b').innerHTML = set_b.value;
+ 	 		Chart();
+			}
+ 	 }
+
+ 	 		
