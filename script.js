@@ -42,20 +42,23 @@
 		    	}else{
 		    		document.getElementById('a').style.backgroundColor = 'white';
 		    		a_input.style.color = 'black';
-		    		b_input.style.display = 'block';
+		    		if(isNaN(b) == false){ 
 
-		    		  context.beginPath();
-				      context.moveTo(step * a, 100);
-				      context.quadraticCurveTo(step * a + b*step/2, 0, step * (a + b), 100);
-				      context.moveTo(step * (a + b), 100);
-				      context.lineTo(step * (a + b), 90);
-				      context.moveTo(step * (a + b), 100);
-				      context.lineTo(step * (a + b) - 10, 97);
-				      context.lineWidth = 2;
+			    		b_input.style.display = 'block';
 
-				      // line color
-				      context.strokeStyle = '#E636DD';
-				      context.stroke();
+			    		  context.beginPath();
+					      context.moveTo(step * a, 100);
+					      context.quadraticCurveTo(step * a + b*step/2, 0, step * (a + b), 100);
+					      context.moveTo(step * (a + b), 100);
+					      context.lineTo(step * (a + b), 90);
+					      context.moveTo(step * (a + b), 100);
+					      context.lineTo(step * (a + b) - 10, 97);
+					      context.lineWidth = 2;
+
+					      // line color
+					      context.strokeStyle = '#E636DD';
+					      context.stroke();
+				  }
 
 
 
@@ -92,7 +95,7 @@
 	
 
  	 var set_a = document.getElementById('set_a');
- 	 var set_b = document.getElementById('set_b');
+ 	
 
  	 set_a.oninput = function() {
  	 	if(set_a.value < 0 || set_a.value > 20 || Number(set_b.value) + Number(set_a.value)  > 20 || isNaN(set_a.value) == true ){
