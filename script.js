@@ -95,7 +95,7 @@
  	 var set_b = document.getElementById('set_b');
 
  	 set_a.oninput = function() {
- 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
+ 	 	if(set_a.value < 0 || set_a.value > 20 || Number(set_b.value) + Number(set_a.value)  > 20 || isNaN(set_a.value) == true ){
  	 		set_a.style.color = 'red';
  	 	}else{
  	 		set_a.style.color = 'black';
@@ -104,7 +104,7 @@
  	 }
 
  	 set_a.onchange = function(){
- 	 	if(set_a.value < 0 || set_a.value > 20 || isNaN(set_a.value) == true ){
+ 	 	if(set_a.value < 0 || set_a.value > 20 || Number(set_b.value) + Number(set_a.value)  > 20 || isNaN(set_a.value) == true ){
  	 	}else{
  	 		document.getElementById('a').innerHTML = set_a.value;
  	 		Chart();
